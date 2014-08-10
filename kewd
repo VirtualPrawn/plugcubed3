@@ -137,8 +137,8 @@
         } 
     }, 
     "images": { 
-        "background": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/05/djbackground3.png", 
-        "booth": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/05/djbooth.png", 
+        "background": "https://i.imgur.com/uo7WvpQ.png", 
+        "booth": "https://i.imgur.com/ZUbrxZN.png", 
         "playback": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/05/playerbg.png", 
         "icons": { 
             "residentdj" : "", 
