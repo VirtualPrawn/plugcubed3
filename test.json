@@ -1,0 +1,156 @@
+{ 
+    "colors": { 
+        "background": "", 
+        "chat": { 
+            "admin": "FF00CC", 
+            "ambassador": "", 
+            "bouncer" : "79beb0", 
+            "cohost": "FF00CC", 
+            "residentdj": "", 
+            "host": "FF00CC", 
+            "manager": "42A5DC"
+        }, 
+        "footer": "", 
+        "header": ""
+    }, 
+    "css": { 
+        "font": [ 
+        ], 
+        "import": [ 
+        ], 
+        "rule": { 
+            "#header": { 
+                "opacity": "0.75"
+            }, 
+            "#plug-menu": { 
+                "background": "rgba(40, 44, 53, 0.94) !important"
+            }, 
+            "#plug-menu .legal": { 
+                "background": "rgba(68, 74, 89, 0.46) !important"
+            }, 
+            "#settings": { 
+                "background": "rgba(10, 10, 10, 0.89) !important"
+            }, 
+            "#settings .header": { 
+                "background": "rgba(28, 31, 37, 0.78) !important"
+            }, 
+            "#chat": { 
+                "background": "rgba(10, 10, 10, 0.75)"
+            }, 
+            "#chat .message:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": { 
+                "background-color": "rgba(17, 19, 23, 0.75)"
+            }, 
+            "#chat .mention": { 
+                "background-color": "rgba(23, 141, 252, 0.22) !important", 
+                "font-weight": "700", 
+                "padding-left": "25px", 
+                "border-left": "#ac76ff 3px solid"
+            }, 
+            "#chat .emote.from-53399f81877b921f2f6f6f3f": { 
+                "border-left": "#ac76ff 3px solid", 
+                "background-color": "rgba(24, 0, 38, 0.9) !important"
+              
+            }, 
+            "#chat .from-5394a133877b9237c099983d": { 
+                "color": "rgba(66, 165, 220, 0.9) !important"
+              
+            }, 
+            "#chat .name.from-5394a133877b9237c099983d": { 
+                "color": "rgba(66, 165, 220, 0.9) !important"
+              
+            }, 
+            ".emote.from-53399f81877b921f2f6f6f3f .from.staff.clickable": { 
+                "display": "none"
+            }, 
+            ".emote.from-53399f81877b921f2f6f6f3f .icon-chat-manager": { 
+                "display": "none"
+            }, 
+            "#chat .emote.from-53399f81877b921f2f6f6f3f .from": { 
+                 "color": "#ac76ff !important"
+            }, 
+            "#chat .emote.from-53399f81877b921f2f6f6f3f .text": { 
+                "font-style": "normal", 
+                "font-weight": "bold", 
+                "color": "#ac76ff"
+            }, 
+            "#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome":{ 
+                "-webkit-animation":"fadein 0.25s", 
+                "-moz-animation":"fadein 0.25s", 
+                "-ms-animation":"fadein 0.25s", 
+                "-o-animation":"fadein 0.25s", 
+                "animation":"fadein 0.25s"
+            }, 
+            "#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": { 
+                "background-color": "rgba(17, 19, 23, 0.32)", 
+                "-webkit-animation":"fadein 0.25s", 
+                "-moz-animation":"fadein 0.25s", 
+                "-ms-animation":"fadein 0.25s", 
+                "-o-animation":"fadein 0.25s", 
+                "animation":"fadein 0.25s"
+            }, 
+            "@keyframes fadein":{ 
+                "from {opacity":"0;}", 
+                "to {opacity":"1;}"
+            }, 
+            "@-moz-keyframes fadein":{ 
+                "from {opacity":"0;}", 
+                "to {opacity":"1;}"
+            }, 
+            "@-webkit-keyframes fadein":{ 
+                "from {opacity":"0;}", 
+                "to {opacity":"1;}"
+            }, 
+            "@-ms-keyframes fadein":{ 
+                "from {opacity":"0;}", 
+                "to {opacity":"1;}"
+            }, 
+            "@-o-keyframes fadein":{ 
+                "from {opacity":"0;}", 
+                "to {opacity":"1;}"
+            }, 
+            "#user-lists .list":{ 
+                "-webkit-animation":"fadein 0.5s", 
+                "-moz-animation":"fadein 0.5s", 
+                "-ms-animation":"fadein 0.5s", 
+                "-o-animation":"fadein 0.5s", 
+                "animation":"fadein 0.5s"
+            }, 
+            "#waitlist .list":{ 
+            "-webkit-animation":"fadein 0.5s", 
+            "-moz-animation":"fadein 0.5s", 
+            "-ms-animation":"fadein 0.5s", 
+            "-o-animation":"fadein 0.5s", 
+            "animation":"fadein 0.5s"
+            }, 
+            "div[class^='message cid-52ea43bfc3'] .icon": { 
+                "background": "url('/_/static/images/emoji.90761eb.png') no-repeat -34px -1122px"
+            }, 
+            "div[class^='message cid-5394a13387'] .icon": { 
+                "background-image": "url('http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/06/bot.png') !important"
+            },
+            "div[class^='message cid-514010f33e'] .icon": {
+                "background": "url('/_/static/images/emoji.90761eb.png') no-repeat -34px -782px"
+            },
+            "div[class^='message cid-52f026ef96'] .icon": {
+                "background": "url('/_/static/images/emoji.90761eb.png') no-repeat -119px -408px"
+            }
+        } 
+    }, 
+    "images": { 
+        "background": "https://i.imgur.com/uo7WvpQ.png", 
+        "booth": "https://i.imgur.com/ZUbrxZN.png", 
+        "playback": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/05/playerbg.png", 
+        "icons": { 
+            "residentdj" : "", 
+            "manager": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/07/manager.png",
+            "cohost": "", 
+            "bouncer": "http://welovekpop.18865-301876.srv24.sysproserver.de/wp-content/uploads/2014/07/bouncer.png",
+            "host": ""
+        } 
+    }, 
+    "rules": { 
+        "allowAutorespond": "true", 
+        "allowAutowoot": "true", 
+        "allowAutojoin": "false"
+    } 
+}
